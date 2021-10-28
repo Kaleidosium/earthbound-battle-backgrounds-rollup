@@ -1,6 +1,6 @@
 {
   "name": "earthbound-battle-backgrounds-rollup",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "An API to render Earthbound's battle backgrounds in your browser",
   "files": [
     "dist/"
@@ -11,8 +11,8 @@
     "dev": "rollup -c -w",
     "lint": "eslint src"
   },
-  "author": "kdex",
-  "license": "GPL-3.0",
+  "author": "kdex, iamrifki",
+  "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.15.8",
     "@babel/eslint-parser": "^7.15.8",
@@ -30,7 +30,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kdex/earthbound-battle-backgrounds.git"
+    "url": "git+https://github.com/iamrifki/earthbound-battle-backgrounds-rollup.git"
   },
   "keywords": [
     "earthbound",
