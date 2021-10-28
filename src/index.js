@@ -6,4 +6,4 @@ import data from "../data/backgrounds-truncated.dat";
 const backgroundData = new Uint8Array(data);
 new ROM(backgroundData);
 
-export { BackgroundLayer, Engine }
+export { BackgroundLayer, Engine };
