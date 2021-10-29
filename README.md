@@ -2,7 +2,7 @@
 
 This project acts as a library to render Earthbound's battle backgrounds. You can render the results in a browser or even on the server.
 
-> This fork is an updated version of the original library by kdex, I've also migrated the codebase away from webpack to rollup for performance and code size reasons. Unfortunately, it seems like UMD export is broken, so the only way to use this is through bundlers. If anyone knows how to fix this, please make a PR.
+> This fork is an updated version of the original library by kdex, I've also migrated the codebase away from webpack to rollup for performance and code size reasons.
 
 ## What is this?
 
