@@ -9,9 +9,8 @@ export default {
   output: {
     name: "index",
     file: "dist/bundle.js",
-    format: "umd",
+    format: "es",
   },
-  external: ["ms"],
   plugins: [
     arraybuffer({ include: "**/*.dat" }), // so Rollup can import .dat files
     resolve(), // so Rollup can find `ms`
