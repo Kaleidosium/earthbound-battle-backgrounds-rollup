@@ -1,13 +1,13 @@
 {
   "name": "earthbound-battle-backgrounds-rollup",
-  "version": "3.0.3",
+  "version": "3.0.4",
   "description": "An API to render Earthbound's battle backgrounds in your browser",
   "files": [
     "dist/"
   ],
-  "main": "earthbound-battle-backgrounds-rollup.cjs",
-  "module": "earthbound-battle-backgrounds-rollup.esm",
-  "browser": "earthbound-battle-backgrounds-rollup.umd",
+  "main": "dist/earthbound-battle-backgrounds-rollup.cjs.js",
+  "module": "dist/earthbound-battle-backgrounds-rollup.esm.js",
+  "browser": "dist/earthbound-battle-backgrounds-rollup.umd.js",
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",

@@ -11,7 +11,7 @@ export default [
     input: "src/index.js",
     output: {
       name: "EBB",
-      file: `dist/${pkg.browser}.js`,
+      file: pkg.browser,
       format: "umd",
     },
     plugins: [
@@ -39,15 +39,13 @@ export default [
     plugins: [arraybuffer({ include: "**/*.dat" })],
     output: [
       {
-        file: `dist/${pkg.module}.js`,
+        file: pkg.module,
         format: "es",
-        exports: "named",
         sourcemap: true,
       },
       {
-        file: `dist/${pkg.main}.js`,
+        file: pkg.main,
         format: "cjs",
-        exports: "named",
         sourcemap: true,
       },
     ],
