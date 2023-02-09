@@ -1,11 +1,11 @@
-import arraybuffer from "@wemap/rollup-plugin-arraybuffer";
-import { babel } from "@rollup/plugin-babel";
-import commonjs from "@rollup/plugin-commonjs";
-import pkg from "./package.json";
-import resolve from "@rollup/plugin-node-resolve";
-import { terser } from "rollup-plugin-terser";
+const arraybuffer = require("@wemap/rollup-plugin-arraybuffer");
+const { babel } = require("@rollup/plugin-babel");
+const commonjs = require("@rollup/plugin-commonjs");
+const pkg = require("./package.json");
+const resolve = require("@rollup/plugin-node-resolve");
+const terser = require("@rollup/plugin-terser");
 
-export default [
+module.exports = [
   {
     // browser-friendly UMD build
     input: "src/index.js",

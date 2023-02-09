@@ -1,6 +1,6 @@
 {
   "name": "earthbound-battle-backgrounds-rollup",
-  "version": "3.1.1",
+  "version": "3.2.0",
   "description": "An API to render Earthbound's battle backgrounds in your browser",
   "files": [
     "dist/"
@@ -15,21 +15,23 @@
   },
   "author": "kdex, Kaleidosium",
   "license": "MIT",
+  "types": "./dist/index.js",
   "devDependencies": {
-    "@babel/core": "^7.17.8",
-    "@babel/eslint-parser": "^7.17.0",
-    "@babel/plugin-transform-modules-umd": "^7.16.7",
-    "@babel/plugin-transform-runtime": "^7.17.0",
-    "@babel/preset-env": "^7.16.11",
-    "@rollup/plugin-babel": "^5.3.1",
-    "@rollup/plugin-commonjs": "^21.0.2",
-    "@rollup/plugin-node-resolve": "^13.1.3",
-    "@rollup/pluginutils": "^4.2.0",
+    "@babel/core": "^7.20.12",
+    "@babel/eslint-parser": "^7.19.1",
+    "@babel/plugin-transform-modules-umd": "^7.18.6",
+    "@babel/plugin-transform-runtime": "^7.19.6",
+    "@babel/preset-env": "^7.20.2",
+    "@rollup/plugin-babel": "^6.0.3",
+    "@rollup/plugin-commonjs": "^24.0.1",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@rollup/plugin-terser": "^0.4.0",
+    "@rollup/pluginutils": "^5.0.2",
     "@wemap/rollup-plugin-arraybuffer": "^0.1.2",
-    "eslint": "^8.11.0",
+    "eslint": "^8.33.0",
     "eslint-plugin-filenames": "1.3.2",
-    "rollup": "^2.70.1",
-    "rollup-plugin-terser": "^7.0.2"
+    "rollup": "^3.14.0",
+    "typescript": "^4.9.5"
   },
   "repository": {
     "type": "git",
